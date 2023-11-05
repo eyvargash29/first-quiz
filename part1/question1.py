@@ -23,7 +23,7 @@ def get_city_temperature(city):
 
 def get_city_weather(city):
 
-  sky_condition = None
+  sky_condition =  "unknown"
 
   if city == "Sao Paulo":
      sky_condition = "cloudy"
